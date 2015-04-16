@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+'use strict';
+
+process.bin = process.title = 'docker-consul';
+
+var dockerConsul = require('../lib');
+
+dockerConsul.start();

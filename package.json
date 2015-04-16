@@ -1,7 +1,11 @@
 {
   "name": "docker-consul",
-  "version": "0.0.1",
-  "main": "docker-consul",
+  "version": "0.0.2",
+  "main": "lib",
+  "repository": "dav1d8/docker-consul",
+  "bin": {
+    "docker-consul": "bin/docker-consul"
+  },
   "dependencies": {
     "dockerode": "~2.1.1",
     "oboe": "~2.1.1",
