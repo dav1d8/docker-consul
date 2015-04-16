@@ -5,4 +5,4 @@ process.bin = process.title = 'docker-consul';
 
 var dockerConsul = require('../lib');
 
-dockerConsul.start();
+dockerConsul.listen();

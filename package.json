@@ -7,8 +7,9 @@
     "docker-consul": "bin/docker-consul"
   },
   "dependencies": {
+    "consul": "~0.14.0",
     "dockerode": "~2.1.1",
     "oboe": "~2.1.1",
-    "consul": "~0.14.0"
+    "promise": "^7.0.0"
   }
 }
