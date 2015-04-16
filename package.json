@@ -1,6 +1,6 @@
 {
   "name": "docker-consul",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib",
   "repository": "dav1d8/docker-consul",
   "bin": {
