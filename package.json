@@ -1,6 +1,6 @@
 {
   "name": "docker-consul",
-  "version": "0.0.5",
+  "version": "0.0.47",
   "main": "lib",
   "repository": "dav1d8/docker-consul",
   "bin": {
@@ -9,7 +9,7 @@
   "dependencies": {
     "consul": "~0.14.0",
     "dockerode": "~2.1.1",
-    "oboe": "~2.1.1",
-    "promise": "^7.0.0"
+    "lodash": "^3.7.0",
+    "oboe": "~2.1.1"
   }
 }
